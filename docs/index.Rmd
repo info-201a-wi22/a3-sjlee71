@@ -1,0 +1,27 @@
+---
+title: "Assignment 3"
+authors: "Sj Lee"
+date: 3/14/22
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source('./docs/analysis.R')
+
+library(knitr)
+library(tidyr)
+library(plotly)
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+```
+
+# Summary Information
+
+
+
+```{r warning = FALSE, message=FALSE, echo=FALSE}
+chart_Var
+
+```
