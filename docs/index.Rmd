@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r message = FALSE, warning = FALSE}
-source('./source/analysis.R')
+source('../source/analysis.R')
 
 library(knitr)
 library(tidyr)
@@ -20,7 +20,7 @@ library(reshape2)
 library(dplyr)
 ```
 
-# Summary Information
+#Summary Information
 
 
 

@@ -76,14 +76,14 @@ ggplot(long_race_prison_pop, aes(year, value, color = variable)) +
   labs(title = "Prison Population Counts (Race)" ,y = "Prison Population Count", x = "Years")
 
 #map
-states <- map_data("state")
+#states <- map_data("state")
 
-map_chart <- variable_chart
-map_chart <- data.frame(state.name[match(map_chart,state.abb)])
+#map_chart <- variable_chart
+#map_chart <- data.frame(state.name[match(map_chart,state.abb)])
 
 #test <- state.name[match(variable_chart,state.abb)])
-colnames(test)[1] <- ("state_")
+#colnames(test)[1] <- ("state_")
 
 
 
-new_variable_chart <- rbind(test, variable_chart)
+#new_variable_chart <- rbind(test, variable_chart)
