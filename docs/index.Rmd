@@ -5,8 +5,12 @@ date: 3/14/22
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-source('./docs/analysis.R')
+```{r include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message = FALSE, warning = FALSE}
+source('./source/analysis.R')
 
 library(knitr)
 library(tidyr)
